@@ -1,0 +1,145 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
+    background-image: no-repeat;
+    background-image: center;
+}
+.navigation {
+    width: 100%;
+    height: 90px;
+    display: inline-block;
+    justify-content: flex-start;
+    color:white
+}
+
+.list {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 550px;
+}
+.nav-item1 {
+    display: inline;
+    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+}
+.nav-item2 {
+    display: inline;
+    align-content: center;
+    font:14px/28px white,Arial,Verdana,sans-serif
+}
+.nav-item3 {
+    display: inline;
+    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+}
+.nav-item4 {
+    display: inline;
+    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+
+}
+.nav-item5 {
+    display: inline;
+    align-items: flex-end;
+    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+}
+.nav-item6 {
+    display: inline;
+    justify-content:flex-end;
+    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+}
+.space-box {
+    position: absolute;
+    height: 40px;
+    padding-top: 38px;
+    padding-left: 120px;
+    width: 240px;
+    font:28px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
+    display: inline-block;
+    color: white;
+}
+.right-box {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+   right: 25px;
+   top: 30px;
+}
+.right-little-box1 {
+    height: 5px;
+    width:30px;
+    background-color: white;
+    position: absolute;
+   right: 5px;
+   top: 5px;
+}
+.right-little-box2 {
+    height: 5px;
+    width:30px;
+    background-color: white;
+    position: absolute;
+   right: 5px;
+   top: 15px;
+}
+.right-little-box3 {
+    height: 5px;
+    width:30px;
+    background-color: white;
+    position: absolute;
+   right: 5px;
+   top: 25px;
+}
+h1 {
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+h3 {
+    position: absolute;
+    top: 780px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+h4 {
+    position: absolute;
+    top: 910px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.button {
+    height: 60px;
+    width: 150px;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+    top: 1000px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.shop-box {
+    right: 80px;
+    position: absolute;
+    top: 37px;
+    font-size: 18px;
+    color: white;
+}

@@ -1,5 +1,5 @@
 .header {
-    height: 10vh;
+    height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -9,95 +9,104 @@ body {
     padding: 0;
     display: block;
     box-sizing: border-box;
-    background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
-    background-image: no-repeat;
-    background-image: center;
-}
-.navigation {
-    width: 100%;
-    height: 90px;
-    display: inline-block;
-    justify-content: flex-start;
-    color:white
-}
 
-.list {
+}
+.nav-list {
+    height: 60px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color:white;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    background-color: #fff;
+}
+.nav-container {
     justify-content: space-evenly;
     display: flex;
+    margin-right: 170px;
+}
+
+.nav-link {
+    margin: 20px;
+    margin-right: 10px;
+    color: black;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%);
+    background-color: #fff;
+}
+.nav-link:hover {
+    color: red;
+    font-size: 28px;
+}
+#main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navItem {
+    display: inline;
+    font:22px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+}
+.main-header {
     margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 550px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    display: flex;
 }
-.nav-item1 {
-    display: inline;
-    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+
+.main-main-text {
+    justify-content: center;
+    align-items: center;
 }
-.nav-item2 {
-    display: inline;
-    align-content: center;
-    font:14px/28px white,Arial,Verdana,sans-serif
-}
-.nav-item3 {
-    display: inline;
-    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
-}
-.nav-item4 {
-    display: inline;
-    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+
+.main-text {
+    justify-content: center;
+    align-items: center;
+
 
 }
-.nav-item5 {
-    display: inline;
-    align-items: flex-end;
-    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+
+p {
+    margin-bottom: 30px;
 }
-.nav-item6 {
-    display: inline;
-    justify-content:flex-end;
-    font:14px/28px D-DIN-Bold,Arial,Verdana,sans-serif
-}
-.space-box {
-    position: absolute;
-    height: 40px;
-    padding-top: 38px;
-    padding-left: 120px;
-    width: 240px;
-    font:28px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
-    display: inline-block;
+.skills-button {
+    border: 2px solid black;
+    background-color: blue;
+    border-radius: 35px;
     color: white;
+    padding: 14px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    align-items: center;
+    position:static;
+    margin-left: 420px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.right-box {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-   right: 25px;
-   top: 30px;
+
+.container-text {
+    margin-bottom: 80px;
+    background-color:rgb(0, 209, 209);
+    
 }
-.right-little-box1 {
-    height: 5px;
-    width:30px;
-    background-color: white;
-    position: absolute;
-   right: 5px;
-   top: 5px;
+
+.about-text, .spare-time {
+    font-size: 1.5rem;
+    justify-content: center;
+    padding: 98px;
+    text-align:center;
 }
-.right-little-box2 {
-    height: 5px;
-    width:30px;
-    background-color: white;
-    position: absolute;
-   right: 5px;
-   top: 15px;
-}
-.right-little-box3 {
-    height: 5px;
-    width:30px;
-    background-color: white;
-    position: absolute;
-   right: 5px;
-   top: 25px;
-}
-h1 {
+
+
+
+/* h1 {
     position: absolute;
     top: 800px;
     left: 150px;
@@ -105,22 +114,21 @@ h1 {
     align-items: center;
     color: white;
     font-size: 40px;
-}
-h3 {
+} */
+/* h3 {
     position: absolute;
     top: 780px;
     left: 150px;
     display: flex;
     align-items: center;
     color: white;
-}
-h4 {
-    position: absolute;
-    top: 910px;
-    left: 150px;
+} */
+h2 {
+    position: center;
+    justify-content: center;
     display: flex;
-    align-items: center;
-    color: white;
+    font-size: 2.8rem;
+    margin-top: 30px;
 }
 .button {
     height: 60px;

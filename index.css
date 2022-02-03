@@ -1,0 +1,184 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+
+}
+.nav-list {
+    height: 60px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color:white;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    background-color: #fff;
+    z-index:2;
+}
+.nav-container {
+    justify-content: space-evenly;
+    display: flex;
+    margin-right: 170px;
+    z-index:2;
+}
+
+.nav-link {
+    margin: 20px;
+    margin-right: 10px;
+    color: black;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%);
+    background-color: #fff;
+}
+.nav-link:hover {
+    color: red;
+    font-size: 28px;
+}
+#main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navItem {
+    display: inline;
+    font:22px/28px D-DIN-Bold,Arial,Verdana,sans-serif
+}
+.main-header {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    display: flex;
+}
+
+.main-main-text {
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+p {
+    margin-bottom: 30px;
+}
+.skills-button {
+    border: 2px solid black;
+    background-color: blue;
+    border-radius: 35px;
+    color: white;
+    padding: 14px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-text {
+    background-color:rgb(0, 209, 209);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+}
+
+hr {
+    margin: 0;
+}
+
+.about-text {
+    font-size: 1.4rem;
+    justify-content: center;
+    text-align:center;
+    padding-left: 98px;
+    padding-right: 98px;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+.inner-ctn-text {
+    width: 100%;
+    height: 30px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-text {
+    font-size: 1.4rem;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-container {
+    justify-content: center;
+    display: flex;
+}
+
+
+/* h1 {
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+} */
+/* h3 {
+    position: absolute;
+    top: 780px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+} */
+h2 {
+    position: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2.8rem;
+    margin-top: 0px;
+}
+.button {
+    height: 60px;
+    width: 150px;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+    top: 1000px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.shop-box {
+    right: 80px;
+    position: absolute;
+    top: 37px;
+    font-size: 18px;
+    color: white;
+}

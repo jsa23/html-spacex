@@ -72,8 +72,6 @@ body {
 .main-text {
     justify-content: center;
     align-items: center;
-
-
 }
 
 p {
@@ -134,6 +132,36 @@ hr {
 .button-container {
     justify-content: center;
     display: flex;
+}
+
+.skills-icons-rows {
+    display: flex;
+    flex-wrap:wrap;
+    position:relative;
+    padding: 30px;
+    width: 100%;
+}
+
+.skills-section {
+    width:100%;
+    background-color: grey;
+
+}
+
+.skills-icon {
+    height: 70px;
+    width: 90px;
+    display: flex;
+    margin-left: 70px;
+    margin-right:70px;
+}
+
+.skills-name {
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
 }
 
 
